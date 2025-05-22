@@ -31,14 +31,20 @@ Execute o script:
 bash
 Copiar código
 node index.js
-🧠 Funcionamento
+
+# 🧠 Funcionamento
 Ao executar o programa, o usuário verá o seguinte menu no terminal:
 
 css
+
 Copiar código
+
 Escolha a operacao:
+
 1- Consultar Saldo
+
 2- Depositar Valor
+
 3- Valor
 
 
