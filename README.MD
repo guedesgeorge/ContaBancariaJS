@@ -1,6 +1,6 @@
-SSistema de Conta Bancária (Node.js)
-Descrição
-Este é um sistema simples de conta bancária desenvolvido em Node.js. Ele permite que o usuário interaja com a conta bancária no terminal para realizar as seguintes operações:
+💰 Sistema de Conta Bancária (Node.js)
+📄 Descrição
+Este é um sistema de conta bancária simples desenvolvido em Node.js que roda no terminal. Ele permite ao usuário realizar operações básicas com uma conta bancária:
 
 Consultar saldo
 
@@ -8,166 +8,89 @@ Depositar dinheiro
 
 Sacar dinheiro
 
-🚀 Funcionalidades
-✅ Consultar saldo: Exibe o saldo atual da conta.
-
-💰 Depositar dinheiro: Permite ao usuário depositar dinheiro na conta.
-
-💸 Sacar dinheiro: Permite ao usuário sacar dinheiro da conta, se houver saldo suficiente.
-
-🛠️ Tecnologias Utilizadas
-Node.js
-
-readline (módulo nativo para interação com o usuário no terminal)
-
 📦 Dependências
-Este projeto usa o módulo readline do Node.js para interagir com o usuário via terminal.
+O sistema utiliza apenas o módulo nativo readline do Node.js para interação com o terminal. Não é necessário instalar pacotes adicionais.
 
 bash
-Copiar
-Editar
-npm install readline
-🧱 Estrutura do Código
-1. Objeto contaBancaria
-O objeto contaBancaria contém as principais funcionalidades e atributos da conta, como o titular e o saldo. Ele possui os seguintes métodos:
+Copiar código
+# Node.js já inclui o readline por padrão.
+▶️ Como Executar
+Clone o repositório:
 
-ConsultaSaldo()
+bash
+Copiar código
+git clone https://github.com/seuusuario/conta-bancaria-nodejs.git
+Acesse o diretório do projeto:
+
+bash
+Copiar código
+cd conta-bancaria-nodejs
+Execute o script:
+
+bash
+Copiar código
+node index.js
+🧠 Funcionamento
+Ao executar o programa, o usuário verá o seguinte menu no terminal:
+
+css
+Copiar código
+Escolha a operacao:
+1- Consultar Saldo
+2- Depositar Valor
+3- Valor
+⚠️ Observação: a opção "3- Valor" é um erro de digitação e deveria ser "3- Sacar Valor".
+
+O programa então aguarda a entrada do usuário para realizar uma das operações:
+
+🟢 Consultar Saldo
 Exibe o saldo atual da conta.
 
-js
-Copiar
-Editar
-ConsultaSaldo: function() {
-    console.log(`O saldo atual de ${this.titularConta}: R$ ${this.saldo}`);
-}
+🟡 Depositar Valor
+Solicita um valor e adiciona ao saldo da conta, caso o valor seja positivo.
+
+🔴 Sacar Valor
+Solicita um valor e realiza o saque, caso haja saldo suficiente.
+
+🧱 Estrutura do Código
+contaBancaria: Objeto que armazena os dados da conta (titularConta, saldo) e os métodos:
+
+ConsultaSaldo()
+
 DepositarDinheiro(valor)
-Adiciona um valor ao saldo, se o valor for positivo.
 
-js
-Copiar
-Editar
-DepositarDinheiro: function(valor) {
-    if (valor > 0) {
-        this.saldo += valor;
-        console.log(`Depósito de R$ ${valor} realizado com sucesso.`);
-    } else {
-        console.log("Valor inválido para depósito.");
-    }
-    this.ConsultaSaldo();
-}
 Sacar(valor)
-Subtrai um valor do saldo, se houver saldo suficiente e o valor for válido.
 
-js
-Copiar
-Editar
-Sacar: function(valor) {
-    if (valor > 0) {
-        if (this.saldo >= valor) {
-            this.saldo -= valor;
-            console.log(`Saque de R$ ${valor} realizado com sucesso.`);
-        } else {
-            console.log("Saldo insuficiente para realizar o saque.");
-        }
-    } else {
-        console.log("Valor inválido para saque.");
-    }
-    this.ConsultaSaldo();
-}
-2. Interação com o Usuário
-O script exibe um menu para o usuário escolher a operação que deseja realizar:
+readline.createInterface(): Utilizado para ler as entradas do usuário via terminal.
 
-js
-Copiar
-Editar
-console.log("Escolha a operação:");
-console.log("1- Consultar Saldo");
-console.log("2- Depositar Valor");
-console.log("3- Sacar Valor");
-A operação escolhida é processada da seguinte forma:
-
-Opção 1: Exibe o saldo atual.
-
-Opção 2: Solicita um valor e deposita esse valor na conta.
-
-Opção 3: Solicita um valor e realiza o saque, caso o saldo seja suficiente.
-
-💾 Como Rodar o Projeto
-1. Clone o Repositório
+💻 Exemplo de Uso
 bash
-Copiar
-Editar
-git clone https://github.com/seuusuario/conta-bancaria-nodejs.git
-2. Entre na pasta do projeto
-bash
-Copiar
-Editar
-cd conta-bancaria-nodejs
-3. Execute o script
-bash
-Copiar
-Editar
-node index.js
-O script será iniciado no terminal e o menu de opções será exibido para o usuário interagir com a conta bancária.
-
-Exemplo de Interação no Console
-Quando o script é executado, o terminal pede para o usuário escolher uma operação:
-
-bash
-Copiar
-Editar
-Escolha a operação:
+Copiar código
+Escolha a operacao:
 1- Consultar Saldo
 2- Depositar Valor
 3- Sacar Valor
-Após escolher a operação, o script solicita mais informações, dependendo da operação escolhida.
-
-Exemplos de Uso:
-Consultar saldo:
+Digite o número da operação: 1
+O saldo atual de George Guedes: R$ 1000
 bash
-Copiar
-Editar
-Escolha a operação: 1- Consultar Saldo
-O saldo atual da conta será exibido no console.
-
-Depositar valor:
-bash
-Copiar
-Editar
-Escolha a operação: 2- Depositar Valor
+Copiar código
+Digite o número da operação: 2
 Digite o valor para depositar: 500
-Após o depósito, o saldo atualizado será mostrado.
-
-Sacar valor:
+Deposito de valor R$ 500 realizado com sucesso.
+O saldo atual de George Guedes: R$ 1500
 bash
-Copiar
-Editar
-Escolha a operação: 3- Sacar Valor
-Digite o valor para sacar: 200
-Após o saque, o saldo atualizado será mostrado.
+Copiar código
+Digite o número da operação: 3
+Digite o valor para sacar: 300
+Saque de valor R$ 300 realizado com sucesso.
+O saldo atual de George Guedes: R$ 1200
+🛠️ Melhorias Sugeridas
+Corrigir o texto da opção 3 para "3- Sacar Valor"
 
-💡 Contribuindo
-Faça um fork do repositório.
+Adicionar validações adicionais de entrada (ex: entrada vazia, valor não numérico)
 
-Crie uma branch para a sua feature:
+Permitir múltiplas operações sem reiniciar o script
 
-bash
-Copiar
-Editar
-git checkout -b minha-nova-feature
-Faça as modificações e commit:
+📄 Licença
+Este projeto está licenciado sob a licença MIT.
 
-bash
-Copiar
-Editar
-git commit -m 'Adiciona nova funcionalidade X'
-Push para a branch:
-
-bash
-Copiar
-Editar
-git push origin minha-nova-feature
-Abra um pull request.
-
-Licença
-Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
