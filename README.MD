@@ -44,13 +44,13 @@ Escolha a operacao:
 
 O programa então aguarda a entrada do usuário para realizar uma das operações:
 
-#🟢 Consultar Saldo
+# 🟢 Consultar Saldo
 Exibe o saldo atual da conta.
 
-#🟡 Depositar Valor
+# 🟡 Depositar Valor
 Solicita um valor e adiciona ao saldo da conta, caso o valor seja positivo.
 
-#🔴 Sacar Valor
+# 🔴 Sacar Valor
 Solicita um valor e realiza o saque, caso haja saldo suficiente.
 
 #🧱 Estrutura do Código
@@ -106,7 +106,7 @@ Saque de valor R$ 300 realizado com sucesso.
 
 O saldo atual de George Guedes: R$ 1200
 
-#🛠️ Melhorias Sugeridas
+# 🛠️ Melhorias Sugeridas
 
 Corrigir o texto da opção 3 para "3- Sacar Valor"
 
