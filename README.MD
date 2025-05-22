@@ -1,6 +1,6 @@
 💰 Sistema de Conta Bancária - Node.js
 
-Este é um projeto simples de um sistema de conta bancária desenvolvido em Node.js, utilizando o módulo nativo readline para interação com o usuário via terminal.
+Projeto simples de um sistema de conta bancária, desenvolvido com Node.js utilizando o módulo nativo readline para interação no terminal.
 
 ✅ Funcionalidades
 
@@ -18,7 +18,7 @@ Acesse a pasta do projeto:
 cd nome-da-pasta
 Execute o programa:
 node nomeDoArquivo.js
-Substitua nomeDoArquivo.js pelo nome real do arquivo, por exemplo banco.js.
+OBS: Substitua nomeDoArquivo.js pelo nome real do arquivo, por exemplo: banco.js.
 💡 Exemplo de uso
 
 === MENU ===
@@ -26,25 +26,32 @@ Substitua nomeDoArquivo.js pelo nome real do arquivo, por exemplo banco.js.
 2 - Depositar
 3 - Sacar
 4 - Sair
+
 Digite o número da operação: 1
+
 O saldo atual de George Guedes: R$ 1000
 Após realizar uma operação, o sistema automaticamente retorna ao menu principal.
 
 🛠️ Tecnologias utilizadas
 
 Node.js (JavaScript)
-Módulo readline para entrada e saída de dados via terminal
+Módulo nativo readline para entrada e saída de dados no terminal
 📄 Estrutura do código
 
-Objeto contaBancaria: contém o titular, saldo e os métodos:
-ConsultaSaldo()
-DepositarDinheiro(valor)
-Sacar(valor)
-Função mostrarMenu(): exibe o menu e permite realizar múltiplas operações até que o usuário decida sair.
+Objeto contaBancaria:
+titularConta: nome do titular.
+saldo: valor atual da conta.
+ConsultaSaldo(): exibe o saldo.
+DepositarDinheiro(valor): adiciona valor ao saldo.
+Sacar(valor): retira valor do saldo.
+Função mostrarMenu():
+Exibe as opções do menu.
+Permite realizar múltiplas operações até a opção de sair.
 ✍️ Autor
 
-George Guedes (adaptar conforme seu nome ou perfil)
+George Guedes
+(ou personalize com seu nome e links de rede social se quiser)
 📌 Observações
 
-O sistema não armazena dados de forma persistente. Ao encerrar, os dados são perdidos.
-Ideal para fins didáticos e aprendizado de JavaScript e Node.js.
+O sistema não armazena dados de forma persistente.
+Ideal para fins didáticos e aprendizado de JavaScript com Node.js.
