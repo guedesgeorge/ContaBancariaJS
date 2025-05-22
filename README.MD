@@ -64,34 +64,57 @@ Sacar(valor)
 
 readline.createInterface(): Utilizado para ler as entradas do usuário via terminal.
 
-💻 Exemplo de Uso
+# 💻 Exemplo de Uso
+
 bash
+
 Copiar código
+
 Escolha a operacao:
+
 1- Consultar Saldo
+
 2- Depositar Valor
+
 3- Sacar Valor
+
 Digite o número da operação: 1
+
 O saldo atual de George Guedes: R$ 1000
+
 bash
+
 Copiar código
+
 Digite o número da operação: 2
+
 Digite o valor para depositar: 500
+
 Deposito de valor R$ 500 realizado com sucesso.
+
 O saldo atual de George Guedes: R$ 1500
+
 bash
+
 Copiar código
+
 Digite o número da operação: 3
+
 Digite o valor para sacar: 300
+
 Saque de valor R$ 300 realizado com sucesso.
+
 O saldo atual de George Guedes: R$ 1200
+
 🛠️ Melhorias Sugeridas
+
 Corrigir o texto da opção 3 para "3- Sacar Valor"
+
 
 Adicionar validações adicionais de entrada (ex: entrada vazia, valor não numérico)
 
 Permitir múltiplas operações sem reiniciar o script
 
-📄 Licença
+# 📄 Licença
 Este projeto está licenciado sob a licença MIT.
 
