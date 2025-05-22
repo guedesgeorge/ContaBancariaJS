@@ -106,15 +106,6 @@ Saque de valor R$ 300 realizado com sucesso.
 
 O saldo atual de George Guedes: R$ 1200
 
-# 🛠️ Melhorias Sugeridas
-
-Corrigir o texto da opção 3 para "3- Sacar Valor"
-
-
-Adicionar validações adicionais de entrada (ex: entrada vazia, valor não numérico)
-
-Permitir múltiplas operações sem reiniciar o script
-
 # 📄 Licença
 Este projeto está licenciado sob a licença MIT.
 
