@@ -1,6 +1,6 @@
-Sistema de Conta Bancária (Node.js)
+SSistema de Conta Bancária (Node.js)
 Descrição
-Este é um sistema simples de conta bancária desenvolvido em Node.js. Ele permite ao usuário interagir com a conta bancária no terminal para realizar as seguintes operações:
+Este é um sistema simples de conta bancária desenvolvido em Node.js. Ele permite que o usuário interaja com a conta bancária no terminal para realizar as seguintes operações:
 
 Consultar saldo
 
@@ -8,33 +8,26 @@ Depositar dinheiro
 
 Sacar dinheiro
 
-Dependências
+🚀 Funcionalidades
+✅ Consultar saldo: Exibe o saldo atual da conta.
+
+💰 Depositar dinheiro: Permite ao usuário depositar dinheiro na conta.
+
+💸 Sacar dinheiro: Permite ao usuário sacar dinheiro da conta, se houver saldo suficiente.
+
+🛠️ Tecnologias Utilizadas
+Node.js
+
+readline (módulo nativo para interação com o usuário no terminal)
+
+📦 Dependências
 Este projeto usa o módulo readline do Node.js para interagir com o usuário via terminal.
 
 bash
 Copiar
 Editar
 npm install readline
-Como Rodar
-Clone o repositório:
-
-bash
-Copiar
-Editar
-git clone https://github.com/seuusuario/conta-bancaria-nodejs.git
-Entre na pasta do projeto:
-
-bash
-Copiar
-Editar
-cd conta-bancaria-nodejs
-Execute o script:
-
-bash
-Copiar
-Editar
-node index.js
-Estrutura do Código
+🧱 Estrutura do Código
 1. Objeto contaBancaria
 O objeto contaBancaria contém as principais funcionalidades e atributos da conta, como o titular e o saldo. Ele possui os seguintes métodos:
 
@@ -99,7 +92,25 @@ Opção 2: Solicita um valor e deposita esse valor na conta.
 
 Opção 3: Solicita um valor e realiza o saque, caso o saldo seja suficiente.
 
-3. Exemplo de Interação
+💾 Como Rodar o Projeto
+1. Clone o Repositório
+bash
+Copiar
+Editar
+git clone https://github.com/seuusuario/conta-bancaria-nodejs.git
+2. Entre na pasta do projeto
+bash
+Copiar
+Editar
+cd conta-bancaria-nodejs
+3. Execute o script
+bash
+Copiar
+Editar
+node index.js
+O script será iniciado no terminal e o menu de opções será exibido para o usuário interagir com a conta bancária.
+
+Exemplo de Interação no Console
 Quando o script é executado, o terminal pede para o usuário escolher uma operação:
 
 bash
@@ -111,37 +122,31 @@ Escolha a operação:
 3- Sacar Valor
 Após escolher a operação, o script solicita mais informações, dependendo da operação escolhida.
 
-Exemplo de Uso
+Exemplos de Uso:
 Consultar saldo:
-
 bash
 Copiar
 Editar
-Escolha a operação:
-1- Consultar Saldo
+Escolha a operação: 1- Consultar Saldo
 O saldo atual da conta será exibido no console.
 
 Depositar valor:
-
 bash
 Copiar
 Editar
-Escolha a operação:
-2- Depositar Valor
+Escolha a operação: 2- Depositar Valor
 Digite o valor para depositar: 500
 Após o depósito, o saldo atualizado será mostrado.
 
 Sacar valor:
-
 bash
 Copiar
 Editar
-Escolha a operação:
-3- Sacar Valor
+Escolha a operação: 3- Sacar Valor
 Digite o valor para sacar: 200
 Após o saque, o saldo atualizado será mostrado.
 
-Contribuindo
+💡 Contribuindo
 Faça um fork do repositório.
 
 Crie uma branch para a sua feature:
@@ -165,4 +170,4 @@ git push origin minha-nova-feature
 Abra um pull request.
 
 Licença
-Este projeto está sob a licença MIT - veja o arquivo LICENSE para mais detalhes.
+Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
