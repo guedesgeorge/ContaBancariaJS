@@ -53,7 +53,7 @@ Solicita um valor e adiciona ao saldo da conta, caso o valor seja positivo.
 # 🔴 Sacar Valor
 Solicita um valor e realiza o saque, caso haja saldo suficiente.
 
-#🧱 Estrutura do Código
+# 🧱 Estrutura do Código
 contaBancaria: Objeto que armazena os dados da conta (titularConta, saldo) e os métodos:
 
 ConsultaSaldo()
