@@ -1,0 +1,155 @@
+💪 SISTEMA DE CONTA BANCÁRIA - NODE.JS
+
+<<<<<<< HEAD
+Projeto simples de um sistema de conta bancária, desenvolvido com Node.js utilizando o módulo nativo readline para interação no terminal.
+=======
+SISTEMA BANCÁRIO ROBUSTO, DESENVOLVIDO COM NODE.JS E O MÓDULO NATIVO READLINE PARA INTERAÇÃO DIRETA NO TERMINAL.
+>>>>>>> c9784f4 (readme.md)
+
+FEITO PARA QUEM QUER CONTROLE TOTAL SOBRE OPERAÇÕES BANCÁRIAS VIA LINHA DE COMANDO.
+
+✅ FUNCIONALIDADES
+
+<<<<<<< HEAD
+Clone este repositório:
+git clone <URL_DO_REPOSITORIO>
+Acesse a pasta do projeto:
+cd nome-da-pasta
+Execute o programa:
+node nomeDoArquivo.js
+OBS: Substitua nomeDoArquivo.js pelo nome real do arquivo, por exemplo: banco.js.
+💡 Exemplo de uso
+
+=== MENU ===
+1 - Consultar saldo
+2 - Depositar
+3 - Sacar
+4 - Sair
+
+Digite o número da operação: 1
+
+O saldo atual de George Guedes: R$ 1000
+Após realizar uma operação, o sistema automaticamente retorna ao menu principal.
+=======
+CONSULTAR SALDO
+
+DEPOSITAR DINHEIRO
+
+SACAR DINHEIRO
+
+MENU INTERATIVO
+
+RETORNO AUTOMÁTICO AO MENU APÓS CADA OPERAÇÃO
+
+ENCERRAR O SISTEMA COM UM COMANDO
+
+🚀 COMO EXECUTAR
+
+CLONE O REPOSITÓRIO:
+GIT CLONE <https://github.com/guedesgeorge/ContaBancariaJS/edit/main/README.MD>
+
+
+ACESSE A PASTA:
+
+CD NOME-DA-PASTA
+
+
+RODE O SISTEMA:
+
+NODE Conta.js
+
+
+💡 EXEMPLO DE OPERAÇÃO
+
+=== MENU ===
+>>>>>>> c9784f4 (readme.md)
+
+1 - CONSULTAR SALDO
+
+<<<<<<< HEAD
+Node.js (JavaScript)
+Módulo nativo readline para entrada e saída de dados no terminal
+📄 Estrutura do código
+
+Objeto contaBancaria:
+titularConta: nome do titular.
+saldo: valor atual da conta.
+ConsultaSaldo(): exibe o saldo.
+DepositarDinheiro(valor): adiciona valor ao saldo.
+Sacar(valor): retira valor do saldo.
+Função mostrarMenu():
+Exibe as opções do menu.
+Permite realizar múltiplas operações até a opção de sair.
+✍️ Autor
+
+George Guedes
+(ou personalize com seu nome e links de rede social se quiser)
+📌 Observações
+
+O sistema não armazena dados de forma persistente.
+Ideal para fins didáticos e aprendizado de JavaScript com Node.js.
+=======
+2 - DEPOSITAR
+
+3 - SACAR
+
+4 - SAIR
+
+DIGITE O NÚMERO DA OPERAÇÃO: 1
+
+O SALDO ATUAL DE GEORGE GUEDES: R$ 1000
+
+O SISTEMA PERMANECE ATIVO ATÉ VOCÊ MANDAR ENCERRAR.
+
+
+🛠️ TECNOLOGIAS
+
+NODE.JS
+
+MÓDULO NATIVO READLINE
+
+NADA DE FIRULAS: SÓ O ESSENCIAL, DIRETO AO PONTO.
+
+
+📄 ESTRUTURA
+
+OBJETO CONTABANCARIA
+
+TITULARCONTA: NOME DO DONO DA CONTA
+
+SALDO: SALDO ATUAL
+
+CONSULTASALDO(): EXIBE O SALDO
+
+DEPOSITARDINHEIRO(VALOR): ADICIONA VALOR
+
+SACAR(VALOR): DESCONTA VALOR
+
+FUNÇÃO MOSTRARMENU()
+
+MOSTRA AS OPÇÕES
+
+MANTÉM O SISTEMA RODANDO ATÉ A ORDEM DE SAÍDA
+
+✍️ AUTOR
+
+GEORGE GUEDES
+
+(OU PERSONALIZE COM O SEU NOME, SE TIVER PEITO PRA ASSINAR!)
+
+
+📌 OBSERVAÇÕES
+
+SISTEMA SEM PERSISTÊNCIA: AO ENCERRAR, ZERA.
+
+IDEAL PRA TREINAR JAVASCRIPT, NODE.JS E DOMINAR OPERAÇÕES NO TERMINAL.
+
+>>>>>>> c9784f4 (readme.md)
+git push
+ git add README.MD
+
+git rebase --continue
+
+git push origin main
+
+
