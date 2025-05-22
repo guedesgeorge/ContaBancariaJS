@@ -40,6 +40,7 @@ Escolha a operacao:
 1- Consultar Saldo
 2- Depositar Valor
 3- Valor
+
 ⚠️ Observação: a opção "3- Valor" é um erro de digitação e deveria ser "3- Sacar Valor".
 
 O programa então aguarda a entrada do usuário para realizar uma das operações:
