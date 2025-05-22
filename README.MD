@@ -19,7 +19,7 @@ Encerrar o sistema ao escolher a opção "Sair".
 
 Clone este repositório:
 
-git clone <URL_DO_REPOSITORIO>
+git clone <https://github.com/guedesgeorge/ContaBancariaJS>
 
 Acesse a pasta do projeto:
 
