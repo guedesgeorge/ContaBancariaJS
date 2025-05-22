@@ -43,7 +43,7 @@ const contaBancaria = {
 console.log("Escolha a operacao:")
 console.log("1- Consultar Saldo")
 console.log("2- Depositar Valor")
-console.log("3- Valor")
+console.log("3- Sacar Valor")
 
 rl.question("Digite o número da operação: ", function(opcao) {
     if (opcao === '1') {
