@@ -1,5 +1,6 @@
-💰 Sistema de Conta Bancária (Node.js)
-📄 Descrição
+ # 💰 Sistema de Conta Bancária (Node.js)
+
+ # 📄 Descrição
 Este é um sistema de conta bancária simples desenvolvido em Node.js que roda no terminal. Ele permite ao usuário realizar operações básicas com uma conta bancária:
 
 Consultar saldo
@@ -8,7 +9,7 @@ Depositar dinheiro
 
 Sacar dinheiro
 
-📦 Dependências
+# 📦 Dependências
 O sistema utiliza apenas o módulo nativo readline do Node.js para interação com o terminal. Não é necessário instalar pacotes adicionais.
 
 bash
